@@ -3683,7 +3683,7 @@ input, select, textarea {
 		#header input[type="button"],
 		#header button,
 		#header .button {
-			background-color: #57c0f0;
+			background-color: #61ba9c;
 			color: #ffffff !important;
 			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 		}
