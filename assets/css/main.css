@@ -2267,8 +2267,6 @@ input, select, textarea {
 		color: #e0e0e0;
 	}
 
-	/* WENDY */
-
 	.colored-square {
 		background-color: #57A399; /* Change this to your desired color */
 		padding: 60px;
@@ -2291,6 +2289,11 @@ input, select, textarea {
 	.nav2{
 		display: inline;
 		background-color: #57A399; 
+	}
+
+	.nav3{
+		display: inline;
+		color:#828282
 	}
 
 	.nav2 a {
