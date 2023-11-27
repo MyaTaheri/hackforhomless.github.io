@@ -2267,11 +2267,13 @@ input, select, textarea {
 		color: #e0e0e0;
 	}
 
+	/* WENDY */
+
 	.colored-square {
-		background-color: #57A399; /* Change this to your desired color */
+		background-color: #57A399; 
 		padding: 60px;
-		border-radius: 10px; /* Optional: Add rounded corners */
-		color: #fff; /* Optional: Set text color */
+		border-radius: 10px;
+		color: #fff;
 		text-align: center;
 		position: relative;
 	}
@@ -2284,7 +2286,7 @@ input, select, textarea {
 		margin-top: 0px;
 		margin-bottom: 0px;
 		text-align: right;
-	}
+		}
 
 	.nav2{
 		display: inline;
@@ -2308,7 +2310,90 @@ input, select, textarea {
 		color: #b1d9d4;
 	  }
 
-	  /* colors: blue = #b5d5f5, dark green = #57A399, light green = #b1d9d4 */
+	  body {
+		margin: 0;
+		font-family: Arial, sans-serif;
+	}
+	
+	/**/
+
+	.split-header {
+		display: flex;
+		background-color: #b1d9d4;
+		padding-top: 5%;
+		padding-bottom: 10%;
+	}
+
+	.image-container {
+		position: absolute;
+		left: 60%;
+		transform: translate(-60%);
+	}
+
+	.logo{
+		max-width: 70%; 
+		height: auto;
+		display: block;
+	}
+	
+	.left-half,
+	.right-half {
+		flex: 1;
+		position: relative;
+		overflow: visible;
+	}
+	
+	.text-overlay {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		color: #fff;
+	}
+
+	.caption {
+		font-size: 1.2em; 
+	}
+	
+	.text-overlay h1 {
+		color:#3d9287;
+		font-size: 3.25em;
+		font-weight: bold;
+		margin-top: 75%;
+		margin-bottom: 10%;
+	}
+	
+	.img1 {
+		width: 80%;
+		height: 80%;
+		display: block;
+		margin-top: 8%;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}	
+
+	.split-body {
+		display: flex;
+		height: 100vh;
+	}
+
+	.left-side,
+	.right-side {
+		flex: 1;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+	
+	.left-side {
+		background-color: #f2f2f2; /* Light gray background on the left side */
+	}
+	
+	.right-side {
+		background-color: #fff; /* White background on the right side */
+	}
+
+	  /* colors: green = #61ba9c, dark green = #57A399, light green = #b1d9d4 */
 
 /* Image */
 
