@@ -220,7 +220,7 @@ input, select, textarea {
 	}
 
 	h6 {
-		font-size: 1.1em;
+		font-size: 1.5em;
 		line-height: 1.5em;
 		text-align: center;
 	}
@@ -2325,6 +2325,13 @@ input, select, textarea {
 		background-color: #b1d9d4;
 		padding-top: 5%;
 		padding-bottom: 10%;
+	}
+
+	.split-header2 {
+		display: flex;
+		background-color: #b1d9d4;
+		padding-top: 0%;
+		padding-bottom: 0%;
 	}
 
 	.image-container {
