@@ -13,10 +13,10 @@ function displayText() {
 		output.textContent = "100% of donations will be used to...";
 	}
 	else if(selectedOption === "Are the donations tax deductible?"){
-		output.textContent = "Yes, the donations are tax deductible...";
+		output.textContent = "Yes, the donations are tax deductible. Through our partnership with the Hack Club Bank, a 501(c)(3) organization, any donation you make to our project is tax deductible.";
 	}
 	else if(selectedOption === "What is the Hack Club Bank?"){
-		output.textContent = "The Hack Club Bank is...";
+		output.textContent = "The Hack Club Bank is a a 501(c)(3) organization the supports hackathons run by and for high school students.";
 	}
 	else{
 		output.textContent = "";
