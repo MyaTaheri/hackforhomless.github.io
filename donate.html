@@ -27,7 +27,7 @@
 			  </li> -->
 
 			  <li class = "nav2">
-				<a href = "about.html">Who are We?</a>
+				<a href = "about.html">Who Are We?</a>
 			  </li>
 			</ul>
 		  </nav>
@@ -51,12 +51,20 @@
 
 		<div class="split-body">
 			<div class="left-side">
-				<p>Link to HCB</p>
-				<a href="https://hcb.hackclub.com/donations/start/hack-for-homelessgot"> Link to HCB</a>
-				<div class="image"><img src="images/donation01.png" alt="donation flyer" width="309" height="400"></div>
+				<p class="centered"> Donate</p>
+				<div class="centeredLink"><a href="https://hcb.hackclub.com/donations/start/hack-for-homeless" class = "centeredLink"> Click here!</a></div>
+				<div class="centered"><img src="images/donation01 copy.png" alt="donation flyer" width="609" height="740"></div>
 			</div>
 			<div class="right-side">
-				<p>Donation Qs</p>
+				<p class="centered">FAQs</p>
+				<select id="dropdown" name="dropdown" onchange="displayText()">
+				  <option value="option1"></option>
+				  <option value="option2">How are the donations used?</option>
+				  <option value="option3">Are the donations tax deductible?</option>
+				  <option value="option3">What is the Hack Club Bank?</option>
+				</select>
+				<div id="output"></div>
+				  
 			</div>
 		</div>
 

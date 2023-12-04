@@ -4,6 +4,25 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+function displayText() {
+	var dropdown = document.getElementById("dropdown");
+	var selectedOption = dropdown.options[dropdown.selectedIndex].text;
+	console.log(selectedOption)
+	var output = document.getElementById("output");
+	if(selectedOption === "How are the donations used?"){
+		output.textContent = "100% of donations will be used to...";
+	}
+	else if(selectedOption === "Are the donations tax deductible?"){
+		output.textContent = "Yes, the donations are tax deductible...";
+	}
+	else if(selectedOption === "What is the Hack Club Bank?"){
+		output.textContent = "The Hack Club Bank is...";
+	}
+	else{
+		output.textContent = "";
+	}
+  }
+
 (function($) {
 
 	var	$window = $(window),
