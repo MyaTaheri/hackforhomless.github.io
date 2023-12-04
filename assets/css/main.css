@@ -2404,6 +2404,35 @@ input, select, textarea {
 		background-color: #fff; /* White background on the right side */
 	}
 
+	.centered{
+		text-align: center;
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+
+	.centeredLink{
+		text-align: center;
+		font-size: 20px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	#dropdown{
+		margin-bottom: 50px;
+	}
+
+	.bigCentered{
+		text-align: center;
+		font-size: 50px;
+		margin-bottom: 30px;
+		margin-top: 40px;
+	}
+
+	.aboutText{
+		margin-top: 50px;
+		font-size: 20px;
+	}
+
 	  /* colors: green = #61ba9c, dark green = #57A399, light green = #b1d9d4 */
 
 /* Image */
